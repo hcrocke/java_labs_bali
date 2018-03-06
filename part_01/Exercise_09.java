@@ -9,4 +9,12 @@ package part_01;
  */
 public class Exercise_09 {
 
+    public static void main(String[] args) {
+
+        double width = 2.4, height = 6.4;
+
+        System.out.println("Area =  " + (width * height));
+        System.out.println("Perimeter = " + 2 * (width + height));
+    }
+
 }

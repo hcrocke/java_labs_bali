@@ -11,4 +11,15 @@ package part_01;
 
 public class Exercise_06 {
 
+    public static void main(String[] args) {
+
+        int sum = 0;
+        int x = 1;
+
+        while(x < 18) {
+            x += 2;
+            sum += x;
+        }
+        System.out.println("Sum = " + sum);
+    }
 }
