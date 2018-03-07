@@ -15,5 +15,20 @@ import java.util.Scanner;
 
 public class Exercise_02 {
 
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a radius for a cylinder: ");
+
+        double radius = input.nextDouble();
+
+        System.out.print("Enter a length for a cylinder: ");
+
+        double length = input.nextDouble();
+
+        System.out.println("The volume of your cylinder is: " + Math.PI * radius * radius * length);
+        System.out.println("The surface area of your cylinder is: " + (2 * Math.PI * radius * length) + (2 * Math.PI * radius * radius));
+    }
 
 }

@@ -19,6 +19,23 @@ import java.util.Scanner;
 
 public class Exercise_11 {
 
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the inital investment amount: ");
+        int investment = input.nextInt();
+
+        System.out.print("Enter the interest rate percentage: ");
+        double interest = input.nextDouble();
+
+        System.out.print("Enter the number of years to invest: ");
+        int years = input.nextInt();
+
+        double yearlyInterest = investment * interest;
+
+        System.out.println("Total investment return: " + ((yearlyInterest * years) + investment));
+
+    }
 }
 
 

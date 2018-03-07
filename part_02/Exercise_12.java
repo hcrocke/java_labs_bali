@@ -18,4 +18,19 @@ import java.util.Scanner;
 
 public class Exercise_12 {
 
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner (System.in);
+        System.out.print("Enter total miles to drive: ");
+        double miles = input.nextDouble();
+
+        System.out.print("Enter your car's MPG: ");
+        double mpg = input.nextDouble();
+
+        System.out.print("Enter the price per gallon of fuel: ");
+        double cost = input.nextDouble();
+
+        System.out.println("Cost of the trip will be: " + (miles / mpg) * cost);
+
+    }
 }

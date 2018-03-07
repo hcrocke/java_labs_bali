@@ -14,10 +14,12 @@ public class Exercise_04 {
 
      public static void main(String[] args) {
 
+         System.out.println("a\ta*2\t a*4");
+
          for(int row = 1; row <= 4; row++) {
 
              for(int column = 1; column <= 4; column *= 2) {
-                 System.out.print((row * column) + " " + " ");
+                 System.out.print((row * column) + "  " + "  ");
              }
              System.out.println();
          }
