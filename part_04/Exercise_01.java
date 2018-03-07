@@ -14,3 +14,15 @@ import java.util.Scanner;
  Output can be on one line or many lines. However you like.
 
  */
+
+public class Exercise_01 {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter 10 integers, each followed by a comma: ");
+
+
+    }
+
+}
