@@ -9,11 +9,19 @@ public class Beer {
 
     public static void main(String[] args) {
 
-        Stout a = new Stout("Summit","Oatmeal Stout",4.7, false);
+        Stout a = new Stout("Summit", "Oatmeal Stout", 4.7, false);
         System.out.println();
 
-        Ipa b = new Ipa ("Surly Brewing Co","Todd the Axeman", 35, 5.8);
+        Ipa b = new Ipa("Surly Brewing Co", "Todd the Axeman", 35, 5.8);
         System.out.println();
+
+
+        System.out.println(favor());
     }
 
+    public static String favor() {
+        return "This is the best!";
+
+    }
 }
+
