@@ -9,3 +9,29 @@ package part_03;
 
  */
 
+class Part_03 {
+
+    public static void main(String[] args) {
+
+        Part_03 object = new Part_03();
+
+        int a = 6;
+        int b = 3;
+        int c = multiply(a, b);
+        int d = object.divide(a, b);
+
+        System.out.println("The sum of the two returned values is " + (c + d));
+
+    }
+
+    static int multiply(int a, int b) {
+        return a * b;
+
+    }
+
+    int divide(int a, int b) {
+        return a / b;
+    }
+
+}
+
