@@ -20,8 +20,21 @@ public class Exercise_01 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter 10 integers, each followed by a comma: ");
+        //declaring and instantiating an array with 10 elements
+        int[] userInput = new int[10];
 
+
+        for(int x = 0; x < 10; x++) {
+            System.out.println("Enter a number: ");
+            userInput[x] = input.nextInt();
+        }
+        for(int x = 1; x < 10; x += 2) {
+            System.out.println(userInput[x]);
+        }
+        System.out.println();
+        for(int x = 8; x >= 0; x -= 2) {
+            System.out.println(userInput[x]);
+        }
 
     }
 
