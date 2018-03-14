@@ -7,3 +7,30 @@ package part_05;
  * Use System.out.println at various points to demonstrate the flow of execution. You can name these classes
  * whatever you want.
  */
+
+class OverloadingDemo {
+
+    public static void main(String[] args) {
+
+        DemoHelp object = new DemoHelp();
+
+        System.out.println(object.multiply(2,3));
+        System.out.println(object.multiply(2,3,4));
+        System.out.println(object.multiply(2,23));
+
+    }
+}
+
+class DemoHelp {
+
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+    public static int multiply(int a, int b, int c) {
+        return a * b * c;
+    }
+    public static int multiply(int a, byte d) {
+        return a * d;
+    }
+
+}

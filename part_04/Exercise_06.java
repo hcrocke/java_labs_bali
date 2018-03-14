@@ -25,9 +25,9 @@ class Queue {
     }
     //no parameter needed because just taking the first one from the queue
     public int dequeue(){
-
+        //need to create a variable to store the data taken out
         int temp = list.get(0);
-
+        //use the list object to call the remove method
         list.remove(0);
 
         return temp;

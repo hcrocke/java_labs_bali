@@ -26,7 +26,7 @@ public class Exercise_06 {                                //Class
 
     public static long fibonacci(long n) {              //fibonacci method that takes a long as a parameter
         if (n<0)
-            throw new IllegalArgumentException("Can't accept negative arguments"); // dose not allow for negative
+            throw new IllegalArgumentException("Can't accept negative arguments"); // does not allow for negative
         return
                 (n < 2) ? n : fibonacci(n-1) + fibonacci(n-2); // if n is less than 2 print itself/ else (n-1) + (n-2)
     }
