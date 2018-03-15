@@ -9,7 +9,7 @@ public class Beer {
 
     public static void main(String[] args) {
 
-        Stout a = new Stout("Summit", "Oatmeal Stout", 4.7, false);
+        Stout a = new Stout("Summit", "Oatmeal MilkshakeIPA", 4.7, false);
         System.out.println();
 
         Ipa b = new Ipa("Surly Brewing Co", "Todd the Axeman", 35, 5.8);
