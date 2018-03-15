@@ -3,7 +3,7 @@
 Create the following:
 
 1) Write one super class with at least 3 private instance variables and at least 3 public methods
-2) Write three subclasses (with at least 3 methods each that not getters and setters) that extend the super
+2) Write three subclasses (with at least 3 methods each that are not getters and setters) that extend the super
 class. Make sure each subclass can manipulate the private variables in the super class. One subclass should
 extend another subclass which extends the super class. Each subclass should only have variables and methods
 that apply to that subclass, ie Animal -> Mammal -> Whale.
@@ -16,21 +16,3 @@ that apply to that subclass, ie Animal -> Mammal -> Whale.
 package part_07;
 
 
-public class Cordota_Phylum {
-
-boolean
-
-
-
-
-}
-
-
-
-class Carnivora_Order {
-
-}
-
-class Ursidae_Family {
-
-}
