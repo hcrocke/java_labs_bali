@@ -1,9 +1,9 @@
 
 1) What is the difference between the Thread and Runnable?
-
+    Thread is a class, Runnable is an interface
 
 2) How do you start a thread using Runnable?
-
+    instantiating an ob
 
 3) How do you start a thread using Thread?
 
@@ -14,14 +14,14 @@
 5) What does the "synchronize()" method do?
 
 
-6) What doe the "join()" method do?
+6) What does the "join()" method do?
 
 
 7) What does the "sleep()" method do?
 
 
 8) What is the one method you must write if you're implementing the Runnable class?
-
+    run()
 
 9) Should you create that same method if you're extending Thread?
 

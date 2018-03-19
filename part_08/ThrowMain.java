@@ -7,7 +7,7 @@ public class ThrowMain {
         array[0] = 5;
         array[1] = 0;
         try {
-            System.out.println(Throw.arrayPractice(array));
+           // System.out.println(Throw.arrayPractice(array));
         } catch (ArithmeticException ae) {
             ae.printStackTrace();
         }

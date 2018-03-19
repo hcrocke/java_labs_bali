@@ -1,6 +1,6 @@
 
 1) What is the difference between a byte stream and a character stream?
-
+    byte stream reads bytes, character stream reads characters
 
 2) List at least 3 examples of byte stream classes?
 
@@ -9,31 +9,31 @@
 
 
 4) What is try-with-resources? Why is it super cool?
-
+    open and close a file in the initial statement (no need for finally block, no need to remember to close a file)
 
 5) Demonstrate a try-wth-resources block:
 
 
 6) What does the read() method on the FileInputStream class return?
-
+    byte
 
 7) What is the documentation above of the FileInputStream class header say? (hint: inside /** ... */)
 
 
 8) Is a DataOutputStream used for bytes or characters?
-
+    bytes
 
 9) What is a BufferedReader?
-
+    translates to human readable characters
 
 10) Why does a BufferedReader require an InputStreamReader as an argument?
 
 
-11) What does the InputStreamReader dp with it's byte stream argument?
+11) What does the InputStreamReader do with its byte stream argument?
 
 
 12) What is the difference between the read() and readLine() on BufferedReader?
-
+    read() reads character by character, readLine() reads line by line
 
 13) Demonstrate instantiating a BufferedReader that will read a file called "yucatan_cenotes.txt"
 
