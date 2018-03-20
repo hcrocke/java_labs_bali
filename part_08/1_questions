@@ -7,17 +7,18 @@
 4) Write a full example of a try/catch/finally statement that catches two distinct exceptions
 
 5) What does it mean to "throw" an exception? How does it work?
-    throw the exception back to the calling method instead of defining how to handle the exception
+    throw the exception back to the calling method instead of defining how to handle the exception, useful when the calling
+    method needs information about why there was an exception
 6) What happens if your application encounters an exception and you don't catch it or throw it?
-    it will stop executing
+    it will stop executing, will print out stacktrace message and die
 7) When catching exception in an inheritance hierarchy, should you catch the subclass exception or the
 superclass exception first? Why?
+    subclass
 
 8) Write a nested try/catch statement.
 
 9) What does it mean to rethrow an exception?
-    exceptions caught by one catch statement can be rethrown to be caught by another (outer) catch, useful when the calling
-    method needs information about why there was an exception
+    exceptions caught by one catch statement can be rethrown to be caught by another (outer) catch
 10) What are the 7 methods that come with the Throwable class?
     page 313
 11) What does the "finally" block do?

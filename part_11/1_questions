@@ -1,12 +1,16 @@
 1) Turn the following into a Generic interface:
 
-   public interface Consumer {
-       public void consume(String parameter)
+   public interface Consumer <T> {
+       public void consume(T parameter)
    }
+   **replace all data types with a generic
 
 2) What are a few advantages of using Generic types?
+    no need to create multiple classes to work with all existing data types
+    also allows you to create and use any reference type
 
 3) What is Type Erasure?
+    JVM automatically replaces all generics with your specified data type upon compile
 
 4) Assuming the following snippet:
 
@@ -25,3 +29,4 @@
 7) What are bounded and unbounded wildcards in Generics?
 
 8) What is difference between List<? extends T>  and  List <? super T> ?
+    anything that's a subclass of T vs. anything that's a superclass of T

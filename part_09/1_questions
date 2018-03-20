@@ -1,24 +1,25 @@
 
 1) What is the difference between a byte stream and a character stream?
-    byte stream reads bytes, character stream reads characters
+    byte streams handle i/o of bytes, character streams handle i/o of characters (character stream takes in a byte stream)
 
 2) List at least 3 examples of byte stream classes?
-
+    InputStream
 
 3) List at least 3 examples of character stream classes?
-
+    InputReader
 
 4) What is try-with-resources? Why is it super cool?
     open and close a file in the initial statement (no need for finally block, no need to remember to close a file)
 
 5) Demonstrate a try-wth-resources block:
-
+    try (FileInputStream f = new FileInputStream("sourcepath.txt");
+        FileOutputStream fo = new FileOutputStream ("destinationpath.txt")) {}
 
 6) What does the read() method on the FileInputStream class return?
-    byte
+    int
 
 7) What is the documentation above of the FileInputStream class header say? (hint: inside /** ... */)
-
+    **down click to read the source code information
 
 8) Is a DataOutputStream used for bytes or characters?
     bytes
@@ -27,13 +28,18 @@
     translates to human readable characters
 
 10) Why does a BufferedReader require an InputStreamReader as an argument?
-
+    InputStreamReader reads character by character and then BufferedReader translates those characters into lines
 
 11) What does the InputStreamReader do with its byte stream argument?
-
+    converts the bytes to characters
 
 12) What is the difference between the read() and readLine() on BufferedReader?
-    read() reads character by character, readLine() reads line by line
+    read() returns int and readLine() returns String
+    read() reads word by word, readLine() reads line by line
 
 13) Demonstrate instantiating a BufferedReader that will read a file called "yucatan_cenotes.txt"
 
+FileInputStream fis = new FileInputStream("somepath.txt");
+FileOutputStream fout = new FileOutputStream("someotherpath.txt");
+-or-
+BufferedReader reader = new BufferedReader (new FileReader(new FileInputStream("takes_a_path.txt")));
