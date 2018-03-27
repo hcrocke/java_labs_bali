@@ -16,7 +16,7 @@ import java.util.ArrayList;
 class Queue {
     // must be an object in the triangle brackets
     //declaring an ArrayList of integers
-    private ArrayList<Integer> list = new ArrayList<>();
+    private ArrayList<Integer> list = new ArrayList();
     //creating a method to take in values to the queue
     public void enqueue(int x) {
         //use the add method on the list object
